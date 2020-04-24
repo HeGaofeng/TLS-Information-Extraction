@@ -6,12 +6,12 @@ Extract and save **TLS** traffic from pcap files, and extract meta information o
 
 # How to use 
 
-./tls_flows.sh path-of-pcap-files 
+./tls_flows.sh path-of-pcap-files  
 Note: you need to modify the **PATH**  environment variable corresponding to your system in the shell code
 
 # Installation (tested in Ubuntu 18.04)
 
-(1) Install the latest version of tshark
+(1) Install the latest version of tshark  
 sudo add-apt-repository ppa: wireshark-dev / stable
 sudo apt-get update
 sudo apt-get install tshark
