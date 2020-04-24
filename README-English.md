@@ -12,12 +12,12 @@ Note: you need to modify the **PATH**  environment variable corresponding to you
 # Installation (tested in Ubuntu 18.04)
 
 (1) Install the latest version of tshark  
-sudo add-apt-repository ppa: wireshark-dev / stable
-sudo apt-get update
-sudo apt-get install tshark
-(2) Install bro
-sudo apt-get install bro
-sudo apt-get install bro-cut
-(3) Install Joy
-https://github.com/cisco/joy
+sudo add-apt-repository ppa: wireshark-dev / stable  
+sudo apt-get update  
+sudo apt-get install tshark  
+(2) Install bro  
+sudo apt-get install bro  
+sudo apt-get install bro-cut  
+(3) Install Joy  
+https://github.com/cisco/joy  
 Note: when install joy, run ./configure without parameters, that is, compression is not enabled
