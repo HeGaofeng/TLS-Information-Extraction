@@ -12,7 +12,7 @@ Note: you need to modify the **PATH**  environment variable corresponding to you
 # Installation (tested in Ubuntu 18.04)
 
 (1) Install the latest version of tshark  
-sudo add-apt-repository ppa: wireshark-dev / stable  
+sudo add-apt-repository ppa: wireshark-dev/stable  
 sudo apt-get update  
 sudo apt-get install tshark  
 (2) Install bro  
