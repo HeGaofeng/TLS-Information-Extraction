@@ -5,8 +5,10 @@
 （1）安装最新版tshark  
 sudo add-apt-repository ppa:wireshark-dev/stable  
 sudo apt-get update  
+sudo apt-get install tshark  
 （2）安装bro  
-sudo apt install bro  
+sudo apt-get install bro  
+sudo apt-get install bro-cut  
 （3）安装Joy  
 https://github.com/cisco/joy  
 编译时直接./configure，不带参数，即不启用压缩
