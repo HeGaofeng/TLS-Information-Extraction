@@ -1,7 +1,7 @@
 
 # Introducion
 
-Extract and save **TLS** traffic from pcap files, and extract meta information of TLS traffic, such as server IP address, server domain name (including all CNAMEs), certificate, packet sizes and time intervals, etc.
+Extract and save **TLS** traffic from pcap files, and extract meta information of TLS traffic, such as server IP address, server domain name (including all CNAMEs), certificate, packet sizes and time intervals, etc. Multi processes are supported.  
 
 
 # How to use 
