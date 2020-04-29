@@ -7,8 +7,15 @@ fi
 
 cp $1 $1-tls-flows
 mv $2 $1-tls-flows
+#if [ -f "dns.log" ]; then 
+#	mv dns.log $1-tls-flows
+#fi
+
+#rm *.log
 
 cd $1-tls-flows
+
+bro -C -r $1
 
 for stream in `tshark -r $1 -Y tls -T fields -e tcp.stream | sort -n | uniq`
 do
