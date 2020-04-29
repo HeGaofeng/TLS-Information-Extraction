@@ -20,7 +20,7 @@ rm -fr $tmp_fifofile
 
 trap "exec 1000>&-;exec 1000<&-;exit 0" 2 #CTRL-C
 
-thread_num=2
+thread_num=3
 
 for ((i=0;i<${thread_num};i++));do # thread_num tokens
 	echo
